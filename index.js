@@ -21,4 +21,10 @@ addTask.addEventListener('click', () => {
     deleteButton.classList.add('deleteTask')
     task.appendChild(deleteButton)
 
+    if (inputTask.value === '') {
+        alert('Please enter a task.')
+    } else {
+        taskContainer.appendChild(task)
+    }
+
 })
