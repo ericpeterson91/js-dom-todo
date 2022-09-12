@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
 
 .add-task-container {
@@ -13,6 +14,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 3px;
     display: flex;
+    margin-bottom: 15px;
 }
 
 input {
@@ -67,9 +69,26 @@ input {
     cursor: pointer;
 }
 
-.task .check-task {
+.task .checkTask {
     color: orange;
-    margin-right: 5px;
+    margin-right: 10px;
     border: 2px solid orange;
     font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background: orange;
+    color: #fff;
+
+}
+
+.task .deleteTask {
+    color: red;
+    border: 2px solid red;
+    font-size: 1.25rem;
+}
+
+.task .deleteTask:hover {
+    background: red;
+    color: #fff;
 }
