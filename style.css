@@ -37,5 +37,39 @@ input {
     background-color: green;
     color: #fff;
     cursor: pointer;
-    
+
+}
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.25rem;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .check-task {
+    color: orange;
+    margin-right: 5px;
+    border: 2px solid orange;
+    font-size: 1.5rem;
 }
